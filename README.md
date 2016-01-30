@@ -28,7 +28,8 @@ Steps to create the tidy data set
 --------------------------------
 1. Open 'run_analysis.R' in either a text editor or R Studio.
 2. Change parameter of the 'setwd' function to your desired working directory, and save the change.
-3. Run 'run_analysis.R' in R or R Studio.  This will download the data set, unzip the data, and create the tidy data set.  The output will be 'tidyData.txt' in the directory specified in Step 2.
+3. IMPORTANT: If your working directory already has the data set from Samsung downloaded and unzipped, comment out or remove lines 19-24 in 'run-analysis.R'.  The script assume you are starting with an empty folder and have not downloaded and unzipped the data.
+4. Run 'run_analysis.R' in R or R Studio.  This will download the data set, unzip the data, and create the tidy data set.  The output will be 'tidyData.txt' in the directory specified in Step 2.
 
 Notes
 -----

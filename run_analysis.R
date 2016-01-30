@@ -3,7 +3,7 @@
 ## Setup directory.  Since the data unzips into "UCI HAR Dataset", we will
 ##      use that as our highest level.
 
-directory <- "C:/Users/Ray/coursera/dataspec/03_getting_and_cleaning_data/project2"
+directory <- "C:/Users/Ray/coursera/dataspec/03_getting_and_cleaning_data/project"
 if (file.exists(directory)){
         setwd(file.path(directory))
 } else {
@@ -100,4 +100,4 @@ melt_data <- melt(actMerged, id = id_labels, measure.vars = data_labels)
 
 ## Use dcast and mean function, write data
 tidy_data <- dcast(melt_data, Subject + Activity ~ variable,mean)
-write.table(tidy_data, file = "./tidyData.txt")
+write.table(tidy_data, file = "./tidyData.txt", row.names = FALSE)
