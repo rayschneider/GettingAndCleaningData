@@ -24,13 +24,14 @@ Parameters for Project
 > 
 > Good luck!
 
-Steps to reproduce this data set
+Steps to create the tidy data set
 --------------------------------
 1. Open 'run_analysis.R' in either a text editor or R Studio.
-2. Change parameter of the 'setwd' function to your desired working directory.
-3. Run 'run_analysis.R'.  The output will be 'tidyData.txt' in the directory specified in Step 1.
+2. Change parameter of the 'setwd' function to your desired working directory, and save the change.
+3. Run 'run_analysis.R' in R or R Studio.  This will download the data set, unzip the data, and create the tidy data set.  The output will be 'tidyData.txt' in the directory specified in Step 2.
 
 Notes
 -----
-1. The dplyr and data.table packages are used in 'run_analysis.R'.  Please make sure these are installed before running the script.
-2. The codebook for the data set is in the 'codebook.md' file.# GettingAndCleaningData
+1. The dplyr and data.table packages are used in 'run_analysis.R'.  Please make sure these are installed before running the script.  The script will call these packages for you.
+2. The codebook for the data set is in the 'codebook.md' file in the repository.
+3. Additional information on the original dataset is contained in the files in "./UCI HAR Dataset", which is created when the data set is downloaded and unzipped.
