@@ -120,10 +120,11 @@ Col  | Variable Name                                     | Description
 
 Datasaet Structure
 ------------------
-'''r
+Below is a sample of the tidyData structure.
+```r
 str(dtTidy)
-'''
-'''
+```
+```
 'data.frame':	180 obs. of  88 variables:
  $ Subject                                          : int  1 1 1 1 1 1 2 2 2 2 ...
  $ Activity                                         : chr  "LAYING" "SITTING" "STANDING" "WALKING" ...
@@ -137,4 +138,4 @@ str(dtTidy)
  $ timeGravityAccelerometerMeanY                     : num  0.706 0.204 -0.273 -0.282 -0.267 ...
  $ timeGravityAccelerometerMeanZ                     : num  0.4458 0.332 0.0135 -0.0681 -0.0621 ...
  $ timeGravityAccelerometerStandDevX                 : num  -0.897 -0.968 -0.994 -0.977 -0.951 ...
-'''
+```
