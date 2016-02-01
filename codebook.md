@@ -21,9 +21,9 @@ X/Y/Z              | Indicates axis of measurement
 
 As an example, variable [3], "timeBodyAccelerometerMeanX" is the mean of all mean time domain body accelerometer measures on the X axis for subject X during activity Y.
 
-Variable [19] is the mean of all standard deviation of time domain body accelerometer jerk measures on the Y axis for subject X during activity Y. 
+Variable [19], "timeBodyAccelerometerJerkStandDevY" is the mean of all standard deviation of time domain body accelerometer jerk measures on the Y axis for subject X during activity Y. 
 
-Col  | Variable Name                                     | Description
+Var  | Variable Name                                     | Description
 -----|---------------------------------------------------|------------
  [1] | Subject                                           | ID of the subject performing the given activity.  Range is 1-30.    
  [2] | Activity                                          | Name of activity measure.  Values are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING     
